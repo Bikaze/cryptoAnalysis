@@ -47,7 +47,7 @@ Quantify the relationship between economic/political crises and cryptocurrency P
 
 **Current Capability**:
 
-- **✅ Binance P2P**: Working perfectly (614 ads collected)
+- **✅ Binance P2P**: Working perfectly (508 ads collected systematically)
 - **📊 Premium Calculation**: Real-time crisis impact measurement
 - **🎯 Target Countries**: 6 countries with documented crisis patterns
 
