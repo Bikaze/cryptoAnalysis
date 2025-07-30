@@ -5,7 +5,7 @@
 
 ## 📁 **Current Project Structure**
 
-```
+```text
 cryptoAnalysis/
 ├── 📊 config/
 │   └── countries.yml                    # Target country profiles (6 countries)
@@ -204,9 +204,9 @@ python utils/data_viewer.py
 
 ### **Short Term (Next 2 Weeks)**
 
-4. **Research Publication Preparation**: Format findings for academic submission
-5. **Methodology Documentation**: Complete replication instructions
-6. **Policy Brief Creation**: Summarize findings for policy researchers
+1. **Research Publication Preparation**: Format findings for academic submission
+2. **Methodology Documentation**: Complete replication instructions
+3. **Policy Brief Creation**: Summarize findings for policy researchers
 
 **The project infrastructure is now complete and production-ready for groundbreaking cryptocurrency crisis correlation research.** 🎯
 

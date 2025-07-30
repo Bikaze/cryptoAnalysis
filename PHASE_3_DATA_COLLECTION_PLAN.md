@@ -65,7 +65,7 @@ Quantify the relationship between economic/political crises and cryptocurrency P
 
 ### **`data/raw/`** - Original Data Collection
 
-```
+```text
 YYYY-MM-DD/
 ├── binance_p2p_[COUNTRY]_YYYY-MM-DD.csv
 ├── exchange_rates_YYYY-MM-DD.csv
@@ -74,7 +74,7 @@ YYYY-MM-DD/
 
 ### **`data/processed/`** - Cleaned and Standardized
 
-```
+```text
 daily_summaries/
 ├── premium_calculations_YYYY-MM-DD.csv
 └── market_conditions_YYYY-MM-DD.csv
@@ -86,7 +86,7 @@ country_aggregates/
 
 ### **`data/analysis/`** - Research Outputs
 
-```
+```text
 crisis_correlations/
 ├── bitcoin_crisis_timeline.csv
 ├── premium_volatility_analysis.csv
@@ -99,7 +99,7 @@ reports/
 
 ### **`data/historical/`** - Long-term Price Data
 
-```
+```text
 yahoo_finance/
 ├── BTC-USD_historical.csv
 ├── ETH-USD_historical.csv
@@ -116,7 +116,7 @@ cryptocompare/
 
 ### **Week 1: Historical Data Foundation**
 
-**Day 1-2: Yahoo Finance Integration**
+#### **Day 1-2: Yahoo Finance Integration**
 
 ```python
 # Implement yahoo_finance_scraper.py
@@ -128,7 +128,7 @@ def collect_crisis_timeline_data():
         # Store in data/historical/crisis_correlations/
 ```
 
-**Day 3-4: Crisis Event Correlation**
+#### **Day 3-4: Crisis Event Correlation**
 
 ```python
 # Implement crisis_correlation_analyzer.py
@@ -139,7 +139,7 @@ def analyze_crisis_impact(country, crisis_date):
     # Generate crisis impact score
 ```
 
-**Day 5-7: Analysis and Validation**
+#### **Day 5-7: Analysis and Validation**
 
 - Cross-validate Yahoo Finance with CryptoCompare data
 - Generate preliminary crisis impact reports
@@ -171,9 +171,9 @@ def analyze_crisis_impact(country, crisis_date):
 
 ### **Short Term (2 Weeks)**
 
-4. **Academic Publication Draft**: First comprehensive crypto crisis study
-5. **Policy Brief**: Cryptocurrency's role in crisis response
-6. **Methodology Documentation**: Replicable research framework
+1. **Academic Publication Draft**: First comprehensive crypto crisis study
+2. **Policy Brief**: Cryptocurrency's role in crisis response
+3. **Methodology Documentation**: Replicable research framework
 
 ### **Research Impact**
 

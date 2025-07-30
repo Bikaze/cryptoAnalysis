@@ -256,7 +256,7 @@ premium = calculate_premium(2942.08, 454.27, 1.0)  # Sudan
 
 **Data Structure**:
 
-```
+```text
 data/
 ├── raw/2025-07-30/
 │   ├── binance_p2p_SD_2025-07-30.csv (209 ads)
